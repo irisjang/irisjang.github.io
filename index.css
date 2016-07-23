@@ -26,16 +26,23 @@ body {
   font-weight:300;
 }
 
-categories {
-  font-family: BrandonGrotesqueBold, sans-serif;
-  color: #cc3333;
+header, .full-width {
+  width: 100%;
+  background: #ccc;
 }
 
-h1{
+.wrap {
+  width: 80%;
+  max-width: 24em;
+  margin: 0 auto;
+  padding: 0.25em 0.625em;
+}
+
+h1 {
   font-size: 6vw;
   font-weight:600;
   font-family: BrandonGrotesqueMedium, sans-serif;
-  color:black;
+  color:white;
   text-align:center;
 }
 
