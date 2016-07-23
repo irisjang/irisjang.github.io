@@ -26,12 +26,13 @@ body {
   font-weight:300;
 }
 
-headerbg {
-  background: url("https://irisjang.github.io/lacma.jpg");
-  background-size: cover;
+div {
+  background: url(https://irisjang.github.io/lacma.jpg);
   height:500px;
   width:100%;
 }
+
+#cover { background-size: cover; }
 
 h1 {
   font-size: 6vw;
