@@ -27,14 +27,14 @@ body {
 }
 
 categories {
-  font-family: BrandonGrotesqueMedium, sans-serif;
+  font-family: BrandonGrotesqueBold, sans-serif;
   color: #cc3333;
 }
 
 h1{
   font-size: 6vw;
   font-weight:600;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: BrandonGrotesqueMedium, sans-serif;
   color:black;
   text-align:center;
 }
