@@ -1,20 +1,9 @@
 @font-face {
   font-family: 'BrandonGrotesqueBold';
-  src: url('https://github.com/cohort/cohortstudio.com/blob/master/font/brandon-grotesque-bold/brandon_bld.eot'); /* IE9 Compat Modes */
-  src: url('https://github.com/cohort/cohortstudio.com/blob/master/font/brandon-grotesque-bold/brandon_bld.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('https://github.com/cohort/cohortstudio.com/blob/master/font/brandon-grotesque-bold/brandon_bld.woff') format('woff'), /* Pretty Modern Browsers */
-       url('https://github.com/cohort/cohortstudio.com/blob/master/font/brandon-grotesque-bold/brandon_bld.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('https://github.com/cohort/cohortstudio.com/blob/master/font/brandon-grotesque-bold/brandon_bld.svg#svgFontName') format('svg'); /* Legacy iOS */
+  src:  url('http://www.jakemiller.com/sites/g/files/g2000005221/f/201508/brandon_bld-webfont.woff') format('woff2'),
+        url('http://www.jakemiller.com/sites/g/files/g2000005221/f/201508/brandon_bld-webfont.woff') format('woff');
 }
 
-@font-face {
-  font-family: 'BrandonGrotesqueMedium';
-  src: url('https://github.com/cohort/cohortstudio.com/blob/master/font/brandon-grotesque-medium/brandon_med.eot'); /* IE9 Compat Modes */
-  src: url('https://github.com/cohort/cohortstudio.com/blob/master/font/brandon-grotesque-medium/brandon_med.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('https://github.com/cohort/cohortstudio.com/blob/master/font/brandon-grotesque-medium/brandon_med.woff') format('woff'), /* Pretty Modern Browsers */
-       url('https://github.com/cohort/cohortstudio.com/blob/master/font/brandon-grotesque-medium/brandon_med.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('https://github.com/cohort/cohortstudio.com/blob/master/font/brandon-grotesque-medium/brandon_med.svg#svgFontName') format('svg'); /* Legacy iOS */
-}
 
 * {
     box-sizing: border-box;
@@ -23,16 +12,17 @@
 
 body {
   font-family: BrandonGrotesqueMedium;
-  font-weight:300;
+  font-weight: 300;
 }
 
-div {
-  background: url(https://irisjang.github.io/lacma.jpg);
-  height:500px;
-  width:100%;
+.headercontainer {
+  background: url("https://raw.githubusercontent.com/irisjang/irisjang.github.io/master/lacma.jpg") no-repeat center center fixed; 
+  height:400px;
+  width:100vw;
 }
 
-#cover { background-size: cover; }
+
+
 
 h1 {
   font-size: 6vw;
@@ -42,7 +32,7 @@ h1 {
   text-align:center;
 }
 
-h2{
+h2 {
   font-size:4vw;
   font-weight:400;
 }
@@ -50,6 +40,8 @@ h2{
   font-size:4vw;
   color:white;
   font-family:'BrandonGrotesqueBold', sans-serif;
+  margin-top:-300px;
+  margin-left:100px;
 }
 .roles {
   position:absolute;
@@ -72,12 +64,6 @@ h2{
   vertical-align: middle;
   position:relative;
 }
-
-.background_header {
-    background-image:url("http://36.media.tumblr.com/baf106a6adcc185c245f2a0274c50dc9/tumblr_nzvn1sDTjD1uj0boho1_500.jpg");
-  background-size: cover;
-}
-
 
 /* For mobile phones: */
 [class*="col-"] {
