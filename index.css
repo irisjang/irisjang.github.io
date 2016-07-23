@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans Pro';
+  font-weight:300;
+}
+
+h1{
+  font-size: 6vw;
+  font-weight:600;
+  font-family: 'Source Sans Pro', sans-serif;
+  color:black;
+  text-align:center;
+}
+
+h2{
+  font-size:4vw;
+  font-weight:400;
+}
+.roles {
+  position:absolute;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2vw;
+  font-weight:300;
+  color:black;
+  text-align:center;
+  vertical-align: middle;
+  position:relative;
+}
+.bio {
+  position:absolute;
+  font-family: 'Garamond';
+  font-style:italic;
+  font-size: 1.5vw;
+  font-weight:300;
+  color:white;
+  text-align:center;
+  vertical-align: middle;
+  position:relative;
+}
+
+.background_header {
+    background-image:url("http://36.media.tumblr.com/baf106a6adcc185c245f2a0274c50dc9/tumblr_nzvn1sDTjD1uj0boho1_500.jpg");
+  background-size: cover;
+}
+.btn.pill{
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  text-decoration:none;
+  color:#0000ff;
+  font-size:1.2vw; /*MAKE NOT DEPENDENT ON WIDTH, BUT INSTEAD... SOMETHING LOL */
+  font-weight:400;
+  padding:0 10px;
+  line-height:25px;
+  height: auto;
+  display:inline-block;
+  text-align:center;
+  border-color:#000000;
+  border-width:1px;
+  border-style:solid;
+  background-color:#ffffff;
+}
+
+.btn.pill:hover{
+  background-color:red; /*change,duh*/
+}
+
+.musician_text{
+  margin: 0 auto;
+  width:400px;
+}
+
+.emphasis_italic{
+  font-family:'Source Sans Pro', sans-serif;
+  font-weight:400;
+  font-style:italic;
+  font-size:2vw;
+  padding: 0 0 20px 0;
+}
+
+.vid{
+  float:left;
+  /*Eventually I want to do a slideshow/playlist of videos*/
+}
+.videodescription{
+  float:left;
+}
+/*MAKE SURE YOU MAKE LINKS CHANGE COLOR ON ROLLOVER*/
+
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
