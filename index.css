@@ -30,6 +30,7 @@ headerbg {
   background: url("https://irisjang.github.io/lacma.jpg");
   background-size: cover;
   height:500px;
+  width:100%;
 }
 
 h1 {
