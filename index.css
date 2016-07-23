@@ -22,7 +22,7 @@
 
 
 body {
-  font-family: 'Source Sans Pro';
+  font-family: BrandonGrotesqueMedium;
   font-weight:300;
 }
 
@@ -37,7 +37,7 @@ div {
 h1 {
   font-size: 6vw;
   font-weight:600;
-  font-family: BrandonGrotesqueMedium, sans-serif;
+  font-family: BrandonGrotesqueBold, sans-serif;
   color:white;
   text-align:center;
 }
@@ -46,9 +46,13 @@ h2{
   font-size:4vw;
   font-weight:400;
 }
+.pagetitle {
+  color:white;
+  font-family:BrandonGrotesqueBold, sans-serif;
+}
 .roles {
   position:absolute;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: BrandonGrotesqueMedium, sans-serif;
   font-size: 2vw;
   font-weight:300;
   color:black;
@@ -72,56 +76,7 @@ h2{
     background-image:url("http://36.media.tumblr.com/baf106a6adcc185c245f2a0274c50dc9/tumblr_nzvn1sDTjD1uj0boho1_500.jpg");
   background-size: cover;
 }
-.btn.pill{
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  border-radius: 15px;
-  text-decoration:none;
-  color:#0000ff;
-  font-size:1.2vw; /*MAKE NOT DEPENDENT ON WIDTH, BUT INSTEAD... SOMETHING LOL */
-  font-weight:400;
-  padding:0 10px;
-  line-height:25px;
-  height: auto;
-  display:inline-block;
-  text-align:center;
-  border-color:#000000;
-  border-width:1px;
-  border-style:solid;
-  background-color:#ffffff;
-}
 
-.btn.pill:hover{
-  background-color:red; /*change,duh*/
-}
-
-.musician_text{
-  margin: 0 auto;
-  width:400px;
-}
-
-.emphasis_italic{
-  font-family:'Source Sans Pro', sans-serif;
-  font-weight:400;
-  font-style:italic;
-  font-size:2vw;
-  padding: 0 0 20px 0;
-}
-
-.vid{
-  float:left;
-  /*Eventually I want to do a slideshow/playlist of videos*/
-}
-.videodescription{
-  float:left;
-}
-/*MAKE SURE YOU MAKE LINKS CHANGE COLOR ON ROLLOVER*/
-
-.row:after {
-    content: "";
-    clear: both;
-    display: block;
-}
 
 /* For mobile phones: */
 [class*="col-"] {
