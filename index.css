@@ -8,10 +8,9 @@
   src:  url('/fonts/brandon_med.woff') format('woff');
 }
 
-
-
-body {
-
+@font-face {
+  font-family: 'BrandonGrotesqueRegular';
+  src:  url('/fonts/brandon_reg.woff') format('woff');
 }
 
 .headercontainer {
@@ -39,14 +38,14 @@ body {
   font-style:italic;
   color:white;
   font-family:Baskerville, serif;
-  margin-top:60px;
+  margin-top:75px;
   margin-left:100px;
 }
 .linkscontainer {
 
   width:100%;
   position:absolute;
-  margin-top:225px;
+  margin-top:200px;
   margin-left:50px;
 }
 
@@ -79,6 +78,10 @@ li a {
 
 .links {
 
+}
+
+body {
+  font-family:'BrandonGrotesqueRegular', sans-serif;
 }
  
 /* For mobile phones:
