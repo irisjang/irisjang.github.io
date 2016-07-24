@@ -1,7 +1,11 @@
 @font-face {
   font-family: 'BrandonGrotesqueBold';
-  src:  url('http://www.jakemiller.com/sites/g/files/g2000005221/f/201508/brandon_bld-webfont.woff') format('woff2'),
-        url('http://www.jakemiller.com/sites/g/files/g2000005221/f/201508/brandon_bld-webfont.woff') format('woff');
+  src:  url('/fonts/brandon_bld.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'BrandonGrotesqueMedium';
+  src:  url('/fonts/brandon_med.woff') format('woff');
 }
 
 
