@@ -9,44 +9,41 @@
 }
 
 @font-face {
-  font-family: 'BrandonGrotesqueRegular';
-  src:  url('/fonts/brandon_reg.woff') format('woff');
+  font-family: 'AvenirLight';
+  src:  url('/fonts/avenir-light-webfont.woff') format('woff');
 }
 
 .headercontainer {
-  background: url("https://raw.githubusercontent.com/irisjang/irisjang.github.io/master/lacma.jpg") no-repeat center center fixed; 
-  height:350px;
-  width:100vw;
-  margin-left:-8px;
-  margin-top:-8px;
-  position:relative;
+  position:fixed;
+  background: url("https://66.media.tumblr.com/23217f61793dd403a76f03d3aac777d0/tumblr_ob7arbtoTD1qa0r1lo1_1280.jpg") no-repeat center center fixed; 
+  height:450px;
+  width:100%;
 }
 
 .pagetitle {
-  font-size:4vw;
+  background:#000000;
+  text-align:center;
+  width:300px;
+  margin: 50px auto 0;
+  padding: 40px;
+  font-size:40px;
   color:white;
-  font-family:'BrandonGrotesqueBold', sans-serif;
-  margin-top:40px;
-  margin-left:100px;
-  position:absolute;
+  font-family:Futura,'Source Sans Pro', sans-serif;
+  border-style:solid;
+  border-width:10px;
+  border-color:#ffff00;
+  /*border-top-color:#ffff00;
+  border-left-color:transparent;
+  border-right-color:transparent;
+  border-bottom-color:transparent;*/
+
 }
 
-.description {
-  position:absolute;
-  font-size:3vw;
-  font-weight:100;
-  font-style:italic;
-  color:white;
-  font-family:Baskerville, serif;
-  margin-top:75px;
-  margin-left:100px;
-}
 .linkscontainer {
+  text-align:center;
 
   width:100%;
-  position:absolute;
-  margin-top:200px;
-  margin-left:50px;
+  margin-top:50px;
 }
 
 ul {
@@ -58,22 +55,18 @@ ul {
 }
 
 li {
-    /*float:left;*/
+   margin:auto;
    display: inline-block;
    padding: 0px 50px;
 }
 
 li a {
   display:block;
-  text-decoration:underline;
-  font-size:3vw;
-  font-weight:600;
-  -ms-transform: rotate(-30deg);
-  -webkit-transform: rotate(-30deg); 
-  transform: rotate(-30deg);
-  color:#CC3300;
-  font-family:'BrandonGrotesqueBold', sans-serif;
-  padding: 30px 0px 50px 0px;
+  text-decoration:none;
+  font-size:22px;
+  font-weight:100;
+  color:#ffffff;
+  font-family:Lato,'BrandonGrotesqueBold', sans-serif;
 }
 
 .links {
@@ -81,7 +74,7 @@ li a {
 }
 
 body {
-  font-family:'BrandonGrotesqueRegular', sans-serif;
+  font-family: 'Source Sans Pro', 'BrandonGrotesqueRegular', sans-serif;
 }
  
 /* For mobile phones:
